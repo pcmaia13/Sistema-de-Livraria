@@ -1,25 +1,28 @@
-Exercício: Sistema de Controle de Biblioteca
-Você foi contratado para desenvolver um sistema de controle de biblioteca em JavaScript. O sistema deve permitir o cadastro de livros, consulta de livros disponíveis, empréstimo e devolução de livros. Crie um programa que atenda a esses requisitos.
+Exercise: Library Control System
+You have been hired to develop a library control system in JavaScript. The system must allow registering books, checking available books, borrowing and returning books. Create a program that meets these requirements.
 
-Requisitos:
-Cadastro de Livros:
+Requirements:
+Book Registration:
 
-Crie uma função para cadastrar um livro no sistema. Cada livro deve ter um título, autor, ano de publicação e status (disponível ou emprestado).
-Consulta de Livros:
+Create a function to register a book in the system. Each book must have a title, author, year of publication and status (available or on loan).
+Book Consultation:
 
-Implemente uma função que lista todos os livros cadastrados, indicando o status de cada um (disponível ou emprestado).
-Empréstimo de Livros:
+Implement a function that lists all registered books, indicating the status of each one (available or borrowed).
+Book Lending:
 
-Crie uma função que permite realizar o empréstimo de um livro. O usuário deve informar o título do livro desejado. Se o livro estiver disponível, seu status deve ser alterado para emprestado. Caso contrário, exiba uma mensagem informando que o livro não está disponível.
-Devolução de Livros:
+Create a function that allows you to borrow a book. The user must enter the title of the desired book. If the book is available, its status should be changed to borrowed. Otherwise, display a message that the book is not available.
+Book Returns:
 
-Implemente uma função para realizar a devolução de um livro. O usuário deve informar o título do livro a ser devolvido. Se o livro estiver emprestado, seu status deve ser alterado para disponível. Caso contrário, exiba uma mensagem informando que o livro não está emprestado.
-Menu Principal:
+Implement a function to return a book. The user must inform the title of the book to be returned. If the book is on loan, its status should be changed to available. Otherwise, display a message stating that the book is not on loan.
+Main menu:
 
-Crie um menu principal que permite ao usuário escolher entre as opções de cadastro, consulta, empréstimo, devolução ou sair do sistema. Use uma estrutura de controle para direcionar o fluxo do programa com base na escolha do usuário.
-Observações:
-Utilize objetos para representar os livros e um array para armazenar todos os livros cadastrados.
-Considere a utilização de funções para organizar o código.
-Implemente tratamento de erros para situações como tentativa de empréstimo/devolução de um livro inexistente.
-O programa deve continuar em execução até que o usuário escolha a opção de sair.
-Essa é uma tarefa prática que envolve a aplicação de conceitos de estruturas de controle, funções e manipulação de objetos em JavaScript. 
+Create a main menu that allows the user to choose between registration, consultation, loan, return or exiting the system options. Use a control structure to direct program flow based on user choice.
+Comments:
+Use objects to represent the books and an array to store all registered books.
+Consider using functions to organize your code.
+Implement error handling for situations such as attempting to borrow/return a non-existent book.
+The program must continue running until the user chooses the exit option.
+This is a practical task that involves applying concepts of control structures, functions and object manipulation in JavaScript.
+
+
+
