@@ -24,5 +24,6 @@ Implement error handling for situations such as attempting to borrow/return a no
 The program must continue running until the user chooses the exit option.
 This is a practical task that involves applying concepts of control structures, functions and object manipulation in JavaScript.
 
+UNFINISHED PROJECT (for training only)
 
-
+![image](https://github.com/pcmaia13/Sistema-de-Livraria/assets/67519243/50799b3e-c28f-4084-bd03-0380b1d4250c)
