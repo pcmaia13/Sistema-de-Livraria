@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Controle de Biblioteca</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Sistema de Controle de Biblioteca</h1>
+    
+    <div id="output"></div>
+
+    <div id="menu">
+      <button onclick="mostrarFormulario('cadastrar')">Cadastrar Livro</button>
+      <button onclick="mostrarLivros()">Consultar Livros</button>
+      <button onclick="mostrarFormulario('emprestimo')">Realizar Empréstimo</button>
+      <button onclick="mostrarFormulario('devolucao')">Realizar Devolução</button>
+      <button onclick="sairDoSistema()">Sair</button>
+    </div>
+
+    <div id="formulario" style="display: none;">
+      <!-- Formulário de Cadastro, Empréstimo ou Devolução -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+Exercício: Sistema de Controle de Biblioteca
+Você foi contratado para desenvolver um sistema de controle de biblioteca em JavaScript. O sistema deve permitir o cadastro de livros, consulta de livros disponíveis, empréstimo e devolução de livros. Crie um programa que atenda a esses requisitos.
+
+Requisitos:
+Cadastro de Livros:
+
+Crie uma função para cadastrar um livro no sistema. Cada livro deve ter um título, autor, ano de publicação e status (disponível ou emprestado).
+Consulta de Livros:
+
+Implemente uma função que lista todos os livros cadastrados, indicando o status de cada um (disponível ou emprestado).
+Empréstimo de Livros:
+
+Crie uma função que permite realizar o empréstimo de um livro. O usuário deve informar o título do livro desejado. Se o livro estiver disponível, seu status deve ser alterado para emprestado. Caso contrário, exiba uma mensagem informando que o livro não está disponível.
+Devolução de Livros:
+
+Implemente uma função para realizar a devolução de um livro. O usuário deve informar o título do livro a ser devolvido. Se o livro estiver emprestado, seu status deve ser alterado para disponível. Caso contrário, exiba uma mensagem informando que o livro não está emprestado.
+Menu Principal:
+
+Crie um menu principal que permite ao usuário escolher entre as opções de cadastro, consulta, empréstimo, devolução ou sair do sistema. Use uma estrutura de controle para direcionar o fluxo do programa com base na escolha do usuário.
+Observações:
+Utilize objetos para representar os livros e um array para armazenar todos os livros cadastrados.
+Considere a utilização de funções para organizar o código.
+Implemente tratamento de erros para situações como tentativa de empréstimo/devolução de um livro inexistente.
+O programa deve continuar em execução até que o usuário escolha a opção de sair.
+Essa é uma tarefa prática que envolve a aplicação de conceitos de estruturas de controle, funções e manipulação de objetos em JavaScript. 
